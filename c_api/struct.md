@@ -19,7 +19,7 @@ struct sm_user_account {
 ```
 
 |NO| NAME | TYPE | DESCRIPTION |
-| :--: | -- | -- | -- |
+| :---: | --- | --- | --- |
 | 1 | **username** | `char [128]` | user name |
 | 2 | **uid** | `char [128]` | Cloud ID |
 | 3 | **email** | `char [128]` | user email |
@@ -48,7 +48,7 @@ struct bee_nbr {
 ```
 
 |NO| NAME | TYPE | DESCRIPTION |
-| :--: | -- | -- | -- |
+| :---: | --- | --- | --- |
 | 1 | **id** | `char [128]` | Cloud ID |
 | 2 | **ip** | `char [128]` | IP Address |
 | 3 | **port** | `int` | Local connection port number |
@@ -70,7 +70,7 @@ struct bee_client {
 ```
 
 |NO| NAME | TYPE | DESCRIPTION |
-| :--: | -- | -- | -- |
+| :---: | --- | --- | --- |
 | 1 | **uid** | `char [128]` | Cloud ID |
 | 2 | **fd** | `int` | Connection ID.<br> `> 0` - TCP connection socket fd.<br> `-1` - MQTT connection. |
 | 3 | **last_time** | `long long` | last time recevied TCP keepalive packet |
