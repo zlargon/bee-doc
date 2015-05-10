@@ -1,6 +1,8 @@
 # Summary
 
 * [Bee Introduction](README.md)
+   * [Define](c_api/define.md)
+   * [Struct](c_api/struct.md)
 * [Initialization](c_api/01_Initialization/SUMMARY.md)
    * [bee_init](c_api/01_Initialization/1.1_bee_init.md)
 * [Configuration](c_api/02_Configuration/SUMMARY.md)
