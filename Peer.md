@@ -53,7 +53,7 @@ public String toString()
 ```java
 /* Show connected list */
 
-int i = 0;
+int i = 1;
 for (Peer peer : mBee.getConnectedPeerList()) {
     Log.i(TAG, i + ". " + peer);
     i++;
