@@ -3,25 +3,30 @@
 * [Bee Introduction](README.md)
    * [Define](define.md)
    * [Struct](struct.md)
+
 * [Initialization](01_Initialization/SUMMARY.md)
    * [bee_init](01_Initialization/1.1_bee_init.md)
+
 * [Configuration](02_Configuration/SUMMARY.md)
    * [bee_set_cloud_server_url](02_Configuration/2.1_bee_set_cloud_server_url.md)
    * [bee_set_service](02_Configuration/2.2_bee_set_service.md)
    * [bee_set_mobile_info](02_Configuration/2.3_bee_set_mobile_info.md)
    * [bee_set_user_info_by_cert](02_Configuration/2.4_bee_set_user_info_by_cert.md)
+
 * [Information](03_Information/SUMMARY.md)
    * [bee_get_version](03_Information/3.1_bee_get_version.md)
    * [bee_get_uid](03_Information/3.2_bee_get_uid.md)
    * [bee_get_token](03_Information/3.3_bee_get_token.md)
    * [bee_get_mqtt_status](03_Information/3.4_bee_get_mqtt_status.md)
    * [bee_strerror](03_Information/3.5_bee_strerror.md)
+
 * [Login / Logout](04_Login_Logout/SUMMARY.md)
    * [bee_user_login_id_pw](04_Login_Logout/4.1_bee_user_login_id_pw.md)
    * [bee_user_social_login](04_Login_Logout/4.2_bee_user_social_login.md)
    * [bee_dev_login_id_pw](04_Login_Logout/4.3_bee_dev_login_id_pw.md)
    * [bee_dev_login_cert](04_Login_Logout/4.4_bee_dev_login_cert.md)
    * [bee_logout](04_Login_Logout/4.5_bee_logout.md)
+
 * [SSDP](05_SSDP/SUMMARY.md)
    * [bee_ssdp_enable](05_SSDP/5.1_bee_ssdp_enable.md)
    * [bee_ssdp_debug](05_SSDP/5.2_bee_ssdp_debug.md)
@@ -29,21 +34,25 @@
    * [bee_ssdp_set_dev_type](05_SSDP/5.4_bee_ssdp_set_dev_type.md)
    * [bee_get_nbr_list](05_SSDP/5.5.1_bee_get_nbr_list.md)
    * [bee_nbr_free](05_SSDP/5.5.2_bee_nbr_free.md)
+
 * [Connect / Disconnect](06_Connect_Disconnect/SUMMARY.md)
    * [bee_client_list](06_Connect_Disconnect/6.1.1_bee_client_list.md)
    * [bee_client_free](06_Connect_Disconnect/6.1.2_bee_client_free.md)
    * [bee_local_connect](06_Connect_Disconnect/6.2_bee_local_connect.md)
    * [bee_remote_connect](06_Connect_Disconnect/6.3_bee_remote_connect.md)
    * [bee_disconnect](06_Connect_Disconnect/6.4_bee_disconnect.md)
+
 * [Send Data](07_Send_Data/SUMMARY.md)
    * [bee_send_data](07_Send_Data/7.1_bee_send_data.md)
    * [bee_push_message](07_Send_Data/7.2_bee_push_message.md)
+
 * [Cloud Device API](08_Cloud_Device_API/SUMMARY.md)
    * [bee_dev_get_user_list](08_Cloud_Device_API/8.1.1_bee_dev_get_user_list.md)
    * [bee_free_user_list](08_Cloud_Device_API/8.1.2_bee_free_user_list.md)
    * [bee_dev_add_user](08_Cloud_Device_API/8.2_bee_dev_add_user.md)
    * [bee_dev_del_user](08_Cloud_Device_API/8.3_bee_dev_del_user.md)
    * [bee_dev_reset](08_Cloud_Device_API/8.4_bee_dev_reset.md)
+
 * [Callback](09_Callback/SUMMARY.md)
    * [bee_ssdp_neighbor_callback_set](09_Callback/9.1_bee_ssdp_neighbor_callback_set.md)
    * [bee_mqtt_status_callback_set](09_Callback/9.2_bee_mqtt_status_callback_set.md)
@@ -53,6 +62,13 @@
    * [bee_message_callback_set](09_Callback/9.6_bee_message_callback_set.md)
    * [bee_service_manager_callback_set](09_Callback/9.7_bee_service_manager_callback_set.md)
    * [bee_log_callback_set](09_Callback/9.8_bee_log_callback_set.md)
+
 * [No Thread](10_No_Thread/SUMMARY.md)
    * [bee_loop_forever](10_No_Thread/10.1_bee_loop_forever.md)
    * [bee_app_callback_set](10_No_Thread/10.2_bee_app_callback_set.md)
+
+* [Cloud Agent Command](11_Cloud_Agent_Command/SUMMARY.md)
+   * [cloud_agent_command_build](11_Cloud_Agent_Command/11.1_cloud_agent_command_build.md)
+   * [cloud_agent_command_parse](11_Cloud_Agent_Command/11.2_cloud_agent_command_parse.md)
+   * [cloud_agent_command_free](11_Cloud_Agent_Command/11.3_cloud_agent_command_free.md)
+   * [cloud_agent_command_set_log_callback](11_Cloud_Agent_Command/11.4_cloud_agent_command_set_log_callback.md)
