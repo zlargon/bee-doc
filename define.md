@@ -3,7 +3,7 @@
 | DEFINE | VALUE |
 | --- | --- |
 | `BEE_GENERAL_LEN` | 128 |
-| `BEE_DATA_SIZE` | 65535 (0xFFFF) |
+| `BEE_DATA_SIZE` | 65535 |
 
 <br>
 
@@ -11,10 +11,10 @@
 
 | ENUM | VALUE |
 | --- | :---: |
-| `BEE_LOG_DEBUG` | 0 (0000 0000) |
-| `BEE_LOG_INFO` | 2 (0000 0010) |
-| `BEE_LOG_WARN` | 4 (0000 0100) |
-| `BEE_LOG_ERROR` | 8 (0000 1000) |
+| `BEE_LOG_DEBUG` | 0 |
+| `BEE_LOG_INFO` | 2 |
+| `BEE_LOG_WARN` | 4 |
+| `BEE_LOG_ERROR` | 8 |
 
 <br>
 
