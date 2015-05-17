@@ -1,6 +1,8 @@
 ## Bee Callback
 
 ```java
+import com.bee.callback.BeeCallback;
+
 public interface BeeCallback {
 
     public void onSsdpNeighborChanged();
