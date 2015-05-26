@@ -1,9 +1,9 @@
 ## Struct
 
-### 1. bee_user_profile (sm_user_account)
+### 1. bee_user_profile (sm_user_profile)
 
 ```c
-struct sm_user_account {
+struct sm_user_profile {
     char username      [SM_GENERAL_LEN];
     char uid           [SM_GENERAL_LEN];
     char email         [SM_GENERAL_LEN];
@@ -14,7 +14,7 @@ struct sm_user_account {
     char key           [SM_GENERAL_LEN];
     char expiration    [SM_GENERAL_LEN];
     char service_list  [SM_SERVICE_COUNT][SM_SERVICE_NAME_LEN];
-    struct sm_user_account * next;
+    struct sm_user_profile * next;
 };
 ```
 
@@ -30,7 +30,7 @@ struct sm_user_account {
 | 8 | **key** | `char [128]` | user key *(no used here)* |
 | 9 | **expiration** | `char [128]` | user token expiration time |
 | 10 | **service_list** | `char [10][32]` | user service list |
-| 11 | **next** | `struct sm_user_account *` | linked list next node pointer |
+| 11 | **next** | `struct sm_user_profile *` | linked list next node pointer |
 
 <br>
 
