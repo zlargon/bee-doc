@@ -15,10 +15,13 @@
 
 * [Information](03_Information/SUMMARY.md)
    * [bee_get_version](03_Information/3.1_bee_get_version.md)
-   * [bee_get_uid](03_Information/3.2_bee_get_uid.md)
-   * [bee_get_token](03_Information/3.3_bee_get_token.md)
-   * [bee_get_mqtt_status](03_Information/3.4_bee_get_mqtt_status.md)
-   * [bee_strerror](03_Information/3.5_bee_strerror.md)
+   * [bee_get_server_url](03_Information/3.2_bee_get_server_url.md)
+   * [bee_get_api_key](03_Information/3.3_bee_get_api_key.md)
+   * [bee_get_api_sec](03_Information/3.4_bee_get_api_sec.md)
+   * [bee_get_uid](03_Information/3.5_bee_get_uid.md)
+   * [bee_get_token](03_Information/3.6_bee_get_token.md)
+   * [bee_get_mqtt_status](03_Information/3.7_bee_get_mqtt_status.md)
+   * [bee_strerror](03_Information/3.8_bee_strerror.md)
 
 * [Login / Logout](04_Login_Logout/SUMMARY.md)
    * [bee_user_login_id_pw](04_Login_Logout/4.1_bee_user_login_id_pw.md)
