@@ -4,6 +4,7 @@ rm -rf _book
 gitbook build
 
 cd _book
+rm -rf *.sh
 git init
 git add -A
 git commit -m "Bee Document $version publish ($time)"
