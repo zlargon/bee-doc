@@ -12,6 +12,7 @@
    * [bee_set_service](02_Configuration/2.2_bee_set_service.md)
    * [bee_set_mobile_info](02_Configuration/2.3_bee_set_mobile_info.md)
    * [bee_set_user_info_by_cert](02_Configuration/2.4_bee_set_user_info_by_cert.md)
+   * [bee_enable_apns](02_Configuration/2.5_bee_enable_apns.md)
 
 * [Information](03_Information/SUMMARY.md)
    * [bee_get_version](03_Information/3.1_bee_get_version.md)
