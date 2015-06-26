@@ -9,3 +9,5 @@
 [2-4. bee_set_user_info_by_cert](2.4_bee_set_user_info_by_cert.md)
 
 [2-5. bee_enable_apns](2.5_bee_enable_apns.md)
+
+[2-6. sm_user_ios_logout](2.6_sm_user_ios_logout.md)
